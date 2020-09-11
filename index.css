@@ -1,0 +1,8 @@
+#mainPopup {
+    padding: 10px;
+    background-color: forestgreen;
+    color: white;
+    height: auto;
+    width: 400px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+}

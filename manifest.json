@@ -1,0 +1,22 @@
+{
+  "name": "PokemonFinder",
+  "description": "Get pokemon from a webpage",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  },
+  "background": {
+    "scripts":["./background.js"],
+    "persistent": false
+  },
+  "options_page": "./options.html",
+  "browser_action": {
+    "default_popup": "window.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
