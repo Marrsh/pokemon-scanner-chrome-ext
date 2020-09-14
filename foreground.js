@@ -1,5 +1,6 @@
-function scan() {
-    var scanMsg = "Searching for Pokemon";
-    var id = document.getElementById("mainPopup");
-    id.innerHTML = scanMsg;
-}
+console.log("chrome ext ready");
+// var popup = document.getElementById('mainPopup');
+// var makeButton = popup.createElement('button');
+// makeButton.innerText("Scan!");
+
+
